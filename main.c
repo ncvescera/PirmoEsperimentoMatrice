@@ -1,16 +1,6 @@
-/* 
- * File:   main.c
- * Author: Studenti
- *
- * Created on 28 febbraio 2015, 8.38
- */
-
 #include <stdio.h>
 #include <stdlib.h>
 
-/*
- * 
- */
 int main(int argc, char** argv) {
     const int nrighe=4;
     const int ncolonne=4;
@@ -27,8 +17,9 @@ int main(int argc, char** argv) {
     }
     for(righe=0;righe<nrighe;righe++){
         for(colonne=0;colonne<ncolonne;colonne++){
-            printf("riga %d & colonne %d = %d\n",righe,colonne,matrice[righe][colonne]);
+            printf("%d\t",matrice[righe][colonne]);
         }
+        printf("\n");
     }
     printf("\n");
     int i;
@@ -41,10 +32,11 @@ int main(int argc, char** argv) {
         }
         
     }
-    for(righe=0;righe<nrighe;righe++){
+     for(righe=0;righe<nrighe;righe++){
         for(colonne=0;colonne<ncolonne;colonne++){
-            printf("riga %d & tcolonne %d = %d\n",righe,colonne,matrice[righe][colonne]);
+            printf("%d\t",matrice[righe][colonne]);
         }
+        printf("\n");
     }
             
     return (EXIT_SUCCESS);

@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=PirmoEsperimentoMatice
+PROJECTNAME=PirmoEsperimentoMatrice
 
 # Active Configuration
 DEFAULTCONF=Debug
